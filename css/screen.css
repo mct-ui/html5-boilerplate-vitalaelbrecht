@@ -9,6 +9,8 @@ html {
     line-height: 1.5;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: black;
+    padding: 24px 24px 0;
+    background: chocolate;
 }
 
 /*
@@ -19,9 +21,18 @@ html {
  */
 
 ::-moz-selection {
-
+    background: #44c8f5;
+    color: white;
 }
 
 ::selection {
+    background: #44c8f5;
+    color: white;
+}
 
+body{
+    max-width: 45em;
+    margin: 0 auto;
+    /* Ik ga dat niet vergeten! Het verwijst naar
+    de font-size van onze html element. (nu 16*42=672px)*/
 }
