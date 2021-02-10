@@ -10,7 +10,7 @@ html {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: black;
     padding: 24px 24px 0;
-    background: chocolate;
+    scroll-behavior: smooth;    
 }
 
 /*
@@ -129,6 +129,24 @@ a {
     transition: all .ls ease-in-out;
 }
 
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+    background-color: whitesmoke;
+}
 a:visited,
 a:active {
     color: blueviolet;
