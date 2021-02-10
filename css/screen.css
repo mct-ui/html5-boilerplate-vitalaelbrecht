@@ -31,8 +31,109 @@ html {
 }
 
 body{
-    max-width: 45em;
+    min-width: 45em;
     margin: 0 auto;
     /* Ik ga dat niet vergeten! Het verwijst naar
     de font-size van onze html element. (nu 16*42=672px)*/
+}
+
+img{
+  max-width: 100%;
+   vertical-align: top;
+}
+
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 40px;
+}
+
+h2 {
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+    margin: 0 0 24px;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    font-family: "Times New Roman", serif;
+}
+
+blockquote*{
+    font-size: inherit;
+    line-height: inherit;
+}
+
+ul,
+ol{
+    padding-left: 24px;
+}
+
+li ul,
+li ol{
+    margin-bottom: 0;
+}
+
+figcaption {
+    font-style: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: grey;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
+
+}
+
+a {
+
+}
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+    
 }
